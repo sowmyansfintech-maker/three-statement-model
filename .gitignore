@@ -1,0 +1,33 @@
+# Microsoft Office temp files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.docx
+~$*.pptx
+*.tmp
+
+# Excel backups
+*.xlk
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Python (if any helper scripts)
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Large data exports
+data/raw/
+*.csv
+!data/sample_*.csv
+
+# Logs
+*.log
